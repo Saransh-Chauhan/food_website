@@ -5,7 +5,7 @@
     --black:#192a56;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
-    overflow-x: hidden;
+    
 }
 
 *{
@@ -16,6 +16,8 @@
     outline: none; border:none;
     text-transform: capitalize;
     transition: all .2s linear;
+    
+    
 }
 
 html{
@@ -27,10 +29,12 @@ html{
 
 section{
     padding:2rem 9%;
+    overflow-x: hidden;
 }
 
 section:nth-child(even){
     background:#eee;
+    overflow-x: hidden;
 }
 
 .sub-heading{
@@ -38,6 +42,8 @@ section:nth-child(even){
     color:var(--green);
     font-size: 2rem;
     padding-top: 1rem;
+    overflow-x: hidden;
+
 }
 
 .heading{
@@ -46,6 +52,7 @@ section:nth-child(even){
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
+   
 }
 
 .btn{
@@ -57,11 +64,13 @@ section:nth-child(even){
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
+    
 }
 
 .btn:hover{
     background: var(--green);
     letter-spacing: .1rem;
+    
 }
 
 header{
@@ -74,12 +83,18 @@ header{
     justify-content: space-between;
     z-index: 1000;
     box-shadow: var(--box-shadow);
+    
+    overflow-y: hidden;
+
 }
 
 header .logo{
     color:var(--black);
     font-size: 2.5rem;
     font-weight: bolder;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 header .logo i{
@@ -182,6 +197,8 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap:2rem; 
     padding-top: 9rem;
+    
+    
 }
 
 .home .home-slider .slide .content{
@@ -434,13 +451,17 @@ header .icons #menu-bars{
     margin-left: 1rem;
     font-size: 2.5rem;
 }
+.review{
+    overflow-x: hidden;
 
+}
 .review .slide{
     padding:2rem;
     box-shadow:var(--box-shadow);
     border:.1rem solid rgba(0,0,0,.2);
     border-radius: .5rem;
     position: relative;    
+    
 }
 
 .review .slide .fa-quote-right{
